@@ -131,30 +131,3 @@ No license file is included in this repository. Add a `LICENSE` (for example the
 ## Contact
 
 If you have questions or feature requests, open an issue on the repository or contact the maintainer.
-
----
-
-_README generated/updated to provide clear usage instructions and troubleshooting for the `vtt_converter` tool._
-# VTT Converter 🎙️➡️📄
-
-A lightweight Python tool that converts Zoom `.vtt` transcript files into clean **Markdown transcripts** — preserving **speaker labels** for easy reading, summarization, and analysis in ChatGPT or other AI tools.
-
----
-
-## ✨ Features
-- Cleans Zoom `.vtt` transcript files
-- Preserves **speaker names** in bold
-- Outputs to **Markdown (.md)** with proper line breaks
-- Saves the cleaned transcript in the **same folder** as the original file
-- Cross-platform (works on macOS, Windows, Linux)
-
----
-
-## 📦 Installation
-
-Clone this repo and install dependencies:
-
-```bash
-git clone https://github.com/matthew-tendler/vtt-converter.git
-cd vtt-converter
-pip install -r requirements.txt
